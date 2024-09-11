@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header-profile {
+    display: flex;
+    align-items: center;
+}
+
+.header-profile .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+}
+
+header h1 {
+    padding: 0;
+    color: #A39FFF;
+    margin: 0; 
+    font-size: 24px;
+}
+
+.medsos {
+    padding: 5px 0;
+    background-color: #7480FF;
+    text-align: right;
+}
+
+.medsos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.medsos ul li {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+}
+
+header ul li a:hover {
+    background-color: #7681FF;
+    color: #fff;
+}
+
+.active {
+    background-color: #7681FF;
+    color: #fff;
+}
+
+.banner {
+    height: 60vh;
+    background-image: url('../img/pngtree-digital-background-purple-violet-aesthetic-picture-image_1811764.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    text-align: center;
+}
+
+.banner:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(68, 76, 143, 0.6);
+}
+
+.banner h2 {
+    color: #fff;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid #fff;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+section h3 {
+    padding: 20px 0;
+    color: #7480FF;
+    margin-bottom: 20px;
+}
+
+.about {
+    padding: 50px 0;
+}
+
+.about p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: justify;
+}
+
+.service {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box .col-4 {
+    flex: 0 1 200px; /* Setiap kolom mengambil minimal 200px */
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    margin: 0 auto 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Ini untuk memastikan ikon di tengah secara horizontal */
+}
+
+.box .col-4 h4 {
+    margin: 20px 0;
+    color: #7681FF;
+}
+
+.table {
+    background-color: #7681FF;
+    color: #fff;
+}
+
+footer {
+    padding: 30px 0;
+    background-color: #7681FF;
+    color: #fff;
+    text-align: center;
+}
+
+.label {
+    font-size: 14px;
+    color: #888;
+}
