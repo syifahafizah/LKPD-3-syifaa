@@ -78,7 +78,7 @@ header ul li a:hover {
 
 .banner {
     height: 60vh;
-    background-image: url('../img/pngtree-digital-background-purple-violet-aesthetic-picture-image_1811764.jpg');
+    background-image: url('./img/pngtree-digital-background-purple-violet-aesthetic-picture-image_1811764.jpg');
     background-size: cover;
     position: relative;
     display: flex;
